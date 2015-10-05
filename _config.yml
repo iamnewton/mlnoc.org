@@ -1,0 +1,27 @@
+# Dependencies
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  auto_ids: true
+
+# Permalinks
+permalink: pretty
+
+# Server
+encoding: UTF-8
+exclude: []
+timezone: America/Los_Angeles
+
+# Custom vars
+image_path: /media/images
+current_version: 1.0.0
+
+meta:
+  description: "The Miracle League of North Orange County is a nationwide non-profit organization out of Fullerton, CA geared towards intellectually & physically disabled children & adults whom want to play baseball."
+  title: The Miracle League of North Orange County
+  url: http://miracleleaguenoc.org/
+  google_analytics:
+logo:
+  url: logo.png
+  alt: The Miracle League of North Orange County logo
