@@ -1,0 +1,123 @@
+-
+  date: '03-04-2016'
+  games:
+    -
+      home: 'Angels'
+      visitor: 'Yankees'
+    -
+      home: 'Pirates'
+      visitor: 'Rangers'
+    -
+      home: 'Dodgers'
+      visitor: 'Titans'
+    -
+      home: 'Red Sox'
+      visitor: 'Cardinals'
+-
+  date: '10-04-2016'
+  games:
+    -
+      home: 'Dodgers'
+      visitor: 'Yankees'
+    -
+      home: 'Pirates'
+      visitor: 'Red Sox'
+    -
+      home: 'Rangers'
+      visitor: 'Cardinals'
+    -
+      home: 'Titans'
+      visitor: 'Angels'
+-
+  date: '17-04-2016'
+  games:
+    -
+      home: 'Angels'
+      visitor: 'Dodgers'
+    -
+      home: 'Rangers'
+      visitor: 'Red Sox'
+    -
+      home: 'Yankees'
+      visitor: 'Titans'
+    -
+      home: 'Cardinals'
+      visitor: 'Pirates'
+-
+  date: '24-04-2016'
+  games:
+    -
+      home: 'Rangers'
+      visitor: 'Pirates'
+    -
+      home: 'Cardinals'
+      visitor: 'Red Sox'
+    -
+      home: 'Titans'
+      visitor: 'Dodgers'
+    -
+      home: 'Yankees'
+      visitor: 'Angels'
+-
+  date: '01-05-2016'
+  games:
+    -
+      home: 'Angels'
+      visitor: 'Titans'
+    -
+      home: 'Cardinals'
+      visitor: 'Rangers'
+    -
+      home: 'Dodgers'
+      visitor: 'Yankees'
+    -
+      home: 'Red Sox'
+      visitor: 'Pirates'
+-
+  date: '08-05-2016'
+  message: "Mothers' Day - No Games"
+-
+  date: '15-05-2016'
+  games:
+    -
+      home: 'Red Sox'
+      visitor: 'Rangers'
+    -
+      home: 'Pirates'
+      visitor: 'Cardinals'
+    -
+      home: 'Titans'
+      visitor: 'Yankees'
+    -
+      home: 'Dodgers'
+      visitor: 'Angels'
+-
+  date: '22-05-2016'
+  games:
+    -
+      home: 'Red Sox'
+      visitor: 'Cardinals'
+    -
+      home: 'Pirates'
+      visitor: 'Rangers'
+    -
+      home: 'Angels'
+      visitor: 'Yankees'
+    -
+      home: 'Dodgers'
+      visitor: 'Titans'
+-
+  date: '29-05-2016'
+  games:
+    -
+      home: 'Angels'
+      visitor: 'Titans'
+    -
+      home: 'Rangers'
+      visitor: 'Cardinals'
+    -
+      home: 'Red Sox'
+      visitor: 'Pirates'
+    -
+      home: 'Dodgers'
+      visitor: 'Yankees'

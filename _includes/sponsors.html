@@ -1,0 +1,20 @@
+<section id="sponsors">
+	<h2>Sponsors</h2>
+
+	<ul>
+		{% for sponsor in site.data.sponsors.companies %}
+			{% if sponsor.active %}
+				<li><a href="{{ sponsor.url }}"><img src="{{ sponsor.image.url }}" alt="{{ sponsor.image.alt }}" /></a></li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+
+	<ul>
+		{% for sponsor in site.data.sponsors.individuals %}
+			<li>{{ sponsor }}</li>
+		{% endfor %}
+		{% for sponsor in site.data.sponsors.friends %}
+			<li>{{ sponsor }}</li>
+		{% endfor %}
+	</ul>
+</section>

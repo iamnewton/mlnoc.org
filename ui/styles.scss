@@ -1,0 +1,44 @@
+@import 'support-for/sass/support-for';
+@import 'normalize-scss/sass/normalize/variables';
+@import 'normalize-scss/sass/normalize/vertical-rhythm';
+@import 'normalize-scss/sass/normalize/normalize-mixin';
+@include normalize();
+*,
+::after,
+::before {
+	box-sizing: inherit;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+@import 'legion-grid/src/sass/legion-grid.fluid';
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+
+	&-focusable:active,
+	&-focusable:focus {
+		position: static;
+		width: auto;
+		height: auto;
+		margin: 0;
+		overflow: visible;
+		clip: auto;
+	}
+}
+
+.footer {
+	text-align: center;
+}

@@ -1,0 +1,78 @@
+companies:
+  -
+    active: true
+    title: Kiwanis Club of Placentia
+    url: http://www.kiwanis30.org/placentia.htm
+    image:
+      url: /media/images/sponsors/kiwanis-international-logo.gif
+      alt: Kiwanis International - Serving the Children of the World
+  -
+    active: true
+    title: Warehouse Shoe Sale
+    url: http://www.warehouseshoesale.com/
+    image:
+      url: /media/images/sponsors/wss-logo.jpg
+      alt: WSS - Shoes. Style. Selection.
+  -
+    active: true
+    title: Placentia Police Officers' Association
+    url: http://placentiapoa.com/
+    image:
+      url: /media/images/sponsors/placentia-poa-logo.jpg
+      alt: Placentia Police Officers' Association
+  -
+    active: true
+    title: Holiday Inn Express Hotel & Suites
+    url: http://www.hiexpress.com/hotels/us/en/reservation?dp=true&roomResult=none&quickRes=city&creative={creative}&endvpage=findandbook#findandbook
+    image:
+      url: /media/images/sponsors/holiday-inn-express-logo.jpg
+      alt: Holiday Inn Express Hotel & Suites
+  -
+    active: true
+    title: Sports For All Children
+    url:
+    image:
+      url: /media/images/sponsors/sports-for-all-children-logo.jpg
+      alt: Sports For All Children - More Than a Game
+  -
+    active: true
+    title: Kristen Fowler
+    url: http://www.kristenfowler.com/
+    image:
+      url: /media/images/sponsors/kristen-fowler-logo.jpg
+      alt: Kristen Fowler - Putting Families & Homes Together
+  -
+    active: true
+    title: Maxum Therapy
+    url: http://maxumtherapy.com/
+    image:
+      url: /media/images/sponsors/maxum-therapy-logo.png
+      alt: Maxum Therapy - Physical. Occupational. Speech.
+  -
+    active: true
+    title: Rex & Jennifer Hudler's Team Up for Down Syndrome
+    url: http://www.teamupfordownsyndrome.org/
+    image:
+      url: /media/images/sponsors/teamup-logo.jpg
+      alt: Rex & Jennifer Hudler's Team Up for Down Syndrome
+  -
+    active: true
+    title: Crystal Glass & Mirror
+    url: http://www.crystal-glass.net/
+    image:
+      url: /media/images/sponsors/crystal-glass-logo.jpg
+      alt: Crystal Glass & Mirror
+individuals:
+  - Ann Wood
+  - Stephen Pischel
+  - Linda and Jerry Melcher
+  - Jack and Rhonda Sanstrom
+  - Robert and Kris Steedman
+  - Dick Huebner
+  - Michelle Cummings & Ron White
+  - Terese Niebuhr
+  - The Oshiro Family
+friends:
+  - Best Buddies Brea Olinda High School
+  - Best Buddies Esperanza High School
+  - Placentia Chamber of Commerce

@@ -3,25 +3,14 @@
 	<head>
 		{% include meta.html %}
 	</head>
-
 	<body itemscope itemtype="http://schema.org/AccountingService">
 		<a id="skip-to-content" class="sr-only sr-only-focusable" href="#content"><span class="skiplink-text">Skip to main content</span></a>
 
 		{% include header.html %}
 		{% include navigation.html %}
 
-		<main id="content" class="Body">
-			{{ content }}
-		</main>
+		<main id="content">{{ content }}</main>
 
 		{% include footer.html %}
-
-		{% if page.notification_enabled %}
-		<div class="Alert">
-			<p class="message">Check out our <a href="/media/2012-year-end-tips.pdf">2012 Year-End Tax Tips</a></p>
-			<!-- <a class="close" data-dismiss="alert">&times;</a> -->
-		</div>
-		{% endif %}
-
 	</body>
 </html>
