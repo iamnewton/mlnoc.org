@@ -1,0 +1,5 @@
+<ul class="list-unstyled social">
+	{% for network in site.data.social %}
+		<li><a id="{{ network.icon }}-{{ include.location }}" class="{{ include.class }} {{ network.icon }}" href="{{ network.url }}"><svg class="icon icon-{{ network.icon }}"><use xlink:href="#{{ network.icon }}-icon"></use></svg> <span class="text">{{ network.cta }} Us on {{ network.icon | capitalize }}</span></a></li>
+	{% endfor %}
+</ul>

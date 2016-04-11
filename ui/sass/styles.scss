@@ -1,0 +1,19 @@
+@import 'support-for/sass/support-for';
+@import 'normalize-scss/sass/normalize/variables';
+@import 'normalize-scss/sass/normalize/vertical-rhythm';
+@import 'normalize-scss/sass/normalize/normalize-mixin';
+@include normalize();
+@import 'legion-grid/src/sass/legion-grid.fluid';
+@import 'slick-carousel/slick/slick.scss';
+@import 'variables';
+@import 'reset';
+@import 'global';
+@import 'partials/header';
+@import 'partials/nav';
+@import 'partials/video';
+@import 'partials/about';
+@import 'partials/schedule';
+@import 'partials/carousel';
+@import 'partials/sponsors';
+@import 'partials/footer';
+

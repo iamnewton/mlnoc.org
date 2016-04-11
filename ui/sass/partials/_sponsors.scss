@@ -1,0 +1,64 @@
+.sponsors {
+	padding-top: $padding-y * 2;
+
+	ul {
+		margin-top: 0;
+		margin-bottom: $padding-x;
+	}
+
+	li {
+		margin-bottom: $padding-y / 3;
+	}
+
+	.item {
+		height: 120px;
+		margin-bottom: $padding-x;
+
+		&:last-child {
+			width: 100%;
+			margin-bottom: 0;
+
+			a {
+				width: 50%;
+				margin-right: auto;
+				margin-left: auto;
+			}
+
+			@media (min-width: 48em) {
+				width: 33.33333%;
+
+				a {
+					width: 100%;
+				}
+			}
+
+			@media (min-width: 62em) {
+				width: 100%;
+
+				a {
+					width: 50%;
+				}
+			}
+		}
+
+		a {
+			display: block;
+			position: relative;
+			width: 100%;
+			height: 100%;
+		}
+
+		span {
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 1;
+			width: 100%;
+			height: 100%;
+			background-position: 50%;
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+	}
+}
+

@@ -1,0 +1,50 @@
+.schedule {
+	background-color: $brand-primary;
+	color: $color-white;
+	text-align: center;
+
+	h1 {
+		margin-bottom: $padding-y;
+		color: $color-white;
+		font-size: 1.5rem;
+		letter-spacing: 0;
+
+		span {
+			background-color: transparent;
+		}
+
+		// line
+		&::before,
+		&::after {
+			content: none;
+		}
+	}
+
+	h2 {
+		text-transform: uppercase;
+		color: $color-white;
+	}
+
+	p {
+		max-width: 600px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	small {
+		display: block;
+	}
+
+	.rules {
+		max-width: 565px;
+		margin-right: auto;
+		margin-left: auto;
+		padding-left: $padding-x * 2/3;
+		text-align: left;
+
+		li {
+			margin-bottom: $padding-x / 3;
+		}
+	}
+}
+

@@ -1,5 +1,5 @@
 <meta charset="UTF-8" />
-<meta name="author" content="Newton Koumantzelis (http://chrisnewton.me)" />
+<meta name="author" content="Newton Koumantzelis <http://chrisnewton.me>" />
 <meta name="description" content="{{ site.meta.description }}" />
 
 <!-- IE meta tag, force it to Edge compatibility -->
@@ -23,83 +23,90 @@
 <!-- Windows Phone 8 meta (Pinned Sites title to be shortenend) -->
 <meta name="title" content="{{ site.meta.url }}" />
 <!-- Windows Phone 8 meta (needs to be 144x144, should have transparent png) -->
-<meta name="msapplication-TileImage" content="{{ site.baseurl }}/favion-144x144.png" />
+<meta name="msapplication-TileImage" content="{{ site.github.url }}/favion-144x144.png" />
 <!-- Windows Phone 8 meta (should be most prominent color, [rgb, keywords, hex]) -->
-<meta name="msapplication-TileColor" content="rgb(2,94,172)" />
+<meta name="msapplication-TileColor" content="rgb(0, 114, 187)" />
 
 <!-- Facebook og tags -->
 <meta property="og:site_name" content="{{ site.meta.title }}" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="{{ site.meta.url }}" />
+<meta property="og:url" content="{{ site.github.url }}" />
 <meta property="og:title" content="{{ site.meta.title }}" />
 <meta property="og:description" content="{{ site.meta.description }}" />
-<meta property="og:image" content="{{ site.baseurl}}/favicon-512x512.png" />
+<meta property="og:image" content="{{ site.github.url}}/favicon-512x512.png" />
 
 <!-- Twitter card -->
 <meta name="twitter:card" content="website" />
 <meta name="twitter:site" content="@MLNOCRocks" />
-<meta name="twitter:creator" content="chrisOHpedia" />
+<meta name="twitter:creator" content="MLNOCRocks" />
 <meta name="twitter:title" content="{{ site.meta.title }}" />
 <meta name="twitter:description" content="{{ site.github.project_tagline }}" />
-<meta name="twitter:image:src" content="{{ site.baseurl }}/favicon-512x512.png" />
+<meta name="twitter:image:src" content="{{ site.github.url }}/favicon-512x512.png" />
 <meta name="twitter:data2" content="Fullerton, CA" />
 <meta name="twitter:label2" content="Location" />
-<meta name="twitter:domain" content="{{ site.meta.url }}" />
+<meta name="twitter:domain" content="{{ site.github.url }}" />
 
 <!-- Profile information -->
 <link rel="author" href="humans.txt" type="text/plain" />
 
 <!-- Canonical -->
-<link rel="canonical" href="{{ site.meta.url }}" itemprop="" />
+<link rel="canonical" href="{{ site.github.url }}" itemprop="" />
 
 <!-- Meta Links -->
 <link rel="top" href="#" title="top" />
-<link rel="home" href="{{ site.meta.url }}" title="Home Page" />
+<link rel="home" href="{{ site.github.url }}" title="Home Page" />
 <link rel="copyright" href="{{ site.github.repository_url }}/blob/master/LICENSE.md" title="Copyright" />
 
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 <!-- Favicon for iPad 3rd/4th Generation -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/favicon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.github.url }}/favicon-144x144.png" />
 <!-- Favicon for iPhone 4/4S/5 & iPod Touch 2012 -->
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.baseurl }}/favicon-57x57@2x.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.github.url }}/favicon-57x57@2x.png" />
 <!-- Favicon for iPad, iPad 2 & iPad Mini -->
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.baseurl }}/favicon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.github.url }}/favicon-72x72.png" />
 <!-- Favicon for iPhone 3GS, iPod Touch 2011, & older Android devices -->
-<link rel="apple-touch-icon-precomposed" href="{{ site.baseurl }}/favicon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" href="{{ site.github.url }}/favicon-57x57.png" />
 <!-- Favicon for Browsers 32x32 -->
-<link rel="icon shortcut" href="m{{ site.baseurl }}/favicon-32x32.png" />
+<link rel="icon shortcut" href="m{{ site.github.url }}/favicon-32x32.png" />
 <!-- Favicon for Legacy Browsers 16x16 -->
-<link rel="icon shortcut" href="{{ site.baseurl }}/favicon.ico" />
+<link rel="icon shortcut" href="{{ site.github.url }}/favicon.ico" />
 
 <!-- Apple Startup Images -->
 <!-- iPhone 3GS, 2011 iPod Touch -->
-<link rel="apple-touch-startup-image" sizes="320x460" href="{{ site.baseurl }}/media/startup/320x460.png" media="screen and (max-device-width : 320px)" />
+<link rel="apple-touch-startup-image" sizes="320x460" href="{{ site.github.url }}/media/startup/320x460.png" media="screen and (max-device-width : 320px)" />
 <!-- iPhone 4, 4S and 2011 iPod Touch -->
-<link rel="apple-touch-startup-image" sizes="640x920" href="{{ site.baseurl }}/media/startup/640x920.png" media="(max-device-width : 480px) and (-webkit-min-device-pixel-ratio : 2)" />
+<link rel="apple-touch-startup-image" sizes="640x920" href="{{ site.github.url }}/media/startup/640x920.png" media="(max-device-width : 480px) and (-webkit-min-device-pixel-ratio : 2)" />
 <!-- iPhone 5 and 2012 iPod Touch -->
-<link rel="apple-touch-startup-image" sizes="640x1096" href="{{ site.baseurl }}/media/startup/640x1096.png" media="(max-device-width : 548px) and (-webkit-min-device-pixel-ratio : 2)" />
+<link rel="apple-touch-startup-image" sizes="640x1096" href="{{ site.github.url }}/media/startup/640x1096.png" media="(max-device-width : 548px) and (-webkit-min-device-pixel-ratio : 2)" />
 <!-- iPad landscape -->
-<link rel="apple-touch-startup-image" sizes="1024x748" href="{{ site.baseurl }}/media/startup/1024x748.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : landscape)" />
+<link rel="apple-touch-startup-image" sizes="1024x748" href="{{ site.github.url }}/media/startup/1024x748.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : landscape)" />
 <!-- iPad Portrait -->
-<link rel="apple-touch-startup-image" sizes="768x1024" href="{{ site.baseurl }}/media/startup/768x1024.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : portrait)" />
+<link rel="apple-touch-startup-image" sizes="768x1024" href="{{ site.github.url }}/media/startup/768x1024.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : portrait)" />
 
-<link rel="stylesheet" href="{{ site.baseurl }}/ui/styles.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300italic" />
+{% if site.github %}
+	<link rel="stylesheet" href="{{ site.github.url }}/ui/styles.min.css" />
+{% else %}
+	<link rel="stylesheet" href="{{ site.github.url }}/ui/styles.css" />
+{% endif %}
 
 <!-- Title -->
 <title>{{ site.meta.title }}</title>
 
 <script>
-	var _gaq = _gaq || [];
-	_gaq.push([
-		'_setAccount',
-		{{ site.meta.google_analytics }},
-		'_trackPageview'
-	]);
-	( function() {
-		var ga = document.createElement( 'script' );
-		ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0];
-		s.parentNode.insertBefore( ga, s );
-	})();
+	( function( i, s, o, g, r, a, m ) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function() {
+			( i[r].q = i[r].q || [] ).push( arguments );
+		},
+		i[r].l = 1 * new Date();
+		a = s.createElement( o ),
+		m = s.getElementsByTagName( o )[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore( a, m );
+	})( window,document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga' );
+	ga( 'create', {{ site.meta.google_analytics }}, 'auto' );
+	ga( 'require', 'linkid' );
+	ga( 'send', 'pageview ');
 </script>

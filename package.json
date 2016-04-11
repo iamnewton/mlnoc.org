@@ -1,13 +1,13 @@
 {
   "name": "miracleleaguenoc",
   "description": "The Miracle League Little League of North Orange County",
+  "version": "0.1.0",
+  "author": "Newton Koumantzelis <chrisohpedia@gmail.com>",
+  "main": "_site/index.html",
   "repository": {
     "type": "git",
     "url": "https://github.com/chrisopedia/miracleleaguenoc.org.git"
   },
-  "author": "Newton Koumantzelis <chrisohpedia@gmail.com>",
-  "version": "0.1.0",
-  "main": "_site/index.html",
   "bugs": {
     "url": "https://github.com/chrisopedia/miracleleaguenoc.org/issues"
   },
@@ -17,27 +17,25 @@
     "docs": "_site"
   },
   "scripts": {
-    "sass": "node-sass --include-path 'bower_components' --source-map $npm_package_config_src/ $npm_package_config_src/ --output $npm_package_config_src/",
+    "sass": "node-sass --include-path 'node_modules' --source-map $npm_package_config_src/ $npm_package_config_src/sass/styles.scss --output $npm_package_config_src/",
     "cssmin": "cleancss --skip-import --output $npm_package_config_src/styles.min.css $npm_package_config_src/styles.css",
     "postcssmin": "for file in $npm_package_config_src/*.css; do base=${file##*/}; headr ${file} --version --homepage --license --author -o=${file}; done",
-
-    "concat": "cat bower_components/jquery/dist/jquery.js bower_components/tether/dist/js/tether.js > $npm_package_config_tmp/scripts.js",
+    "concat": "cat node_modules/jquery/dist/jquery.js node_modules/slick-carousel/slick/slick.js $npm_package_config_src/scripts/slick.js > $npm_package_config_src/scripts.js",
     "uglifyjs": "uglifyjs $npm_package_config_src/scripts.js --stats --prefix relative --source-map $npm_package_config_src/scripts.js.map --compress --mangle --screw-ie8 --output $npm_package_config_src/scripts.min.js",
     "postuglifyjs": "for file in $npm_package_config_src/*.js; do base=${file##*/}; headr ${file} --version --homepage --license --author -o=${file}; done",
-
-    "build": "npm run sass",
-
+    "build": "npm run sass && npm run concat",
     "predist": "npm run build -s",
-    "dist": "npm run cssmin -s",
-
+    "dist": "npm run cssmin -s && npm run uglifyjs -s",
     "jekyll": "bundle exec jekyll build",
     "browsersync": "browser-sync start --files '$npm_package_config_docs/' --server $npm_package_config_docs --browser 'google chrome'",
-    "serve": "parallelshell 'npm run sass -- --watch' 'npm run jekyll -- --watch' 'npm run browsersync'",
-
+    "serve": "parallelshell 'npm run sass -- --watch' 'npm run concat' 'npm run jekyll -- --watch' 'npm run browsersync'",
     "prestart": "npm run dist",
-    "start": "npm run serve",
-
-    "postinstall": "bower install"
+    "start": "npm run serve"
+  },
+  "dependencies": {
+    "legion-grid": "git+https://github.rp-core.com/Legion/legion-grid.git#gh-pages",
+    "normalize-scss": "^4.0.3",
+    "slick-carousel": "^1.5.9"
   },
   "devDependencies": {
     "browser-sync": "^2.9.11",
@@ -48,4 +46,3 @@
     "uglify-js": "^2.6.2"
   }
 }
-

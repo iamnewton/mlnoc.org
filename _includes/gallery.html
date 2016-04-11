@@ -1,0 +1,16 @@
+<div id="gallery" class="gallery">
+	{% for i in (1..36) %}
+		{% assign loopindex = forloop.index | modulo: 3 %}
+		{% if loopindex == 1 %}
+			<div class="image">
+		{% endif %}
+		{% if loopindex == 0 %}
+			</div>
+			<div class="image">
+				<img src="{{ site.github.url }}/{{ site.media_path }}/images/gallery/{{ i }}.jpg" alt="Player gallery #{{ i }}" />
+			</div>
+		{% else %}
+			<img src="{{ site.github.url }}/{{ site.media_path }}/images/gallery/{{ i }}.jpg" alt="Player gallery #{{ i }}" />
+		{% endif %}
+	{% endfor %}
+</div>

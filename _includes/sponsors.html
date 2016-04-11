@@ -1,20 +1,24 @@
-<section id="sponsors">
-	<h2>Sponsors</h2>
+<section id="sponsors" class="sponsors">
+	<div class="frame">
+		<h1 class="diamond"><span>{{ site.data.sponsors.title }}</span></h1>
 
-	<ul>
-		{% for sponsor in site.data.sponsors.companies %}
-			{% if sponsor.active %}
-				<li><a href="{{ sponsor.url }}"><img src="{{ sponsor.image.url }}" alt="{{ sponsor.image.alt }}" /></a></li>
-			{% endif %}
-		{% endfor %}
-	</ul>
+		<ul class="row list-unstyled text-center">
+			{% for sponsor in site.data.sponsors.companies %}
+				{% if sponsor.active %}
+					<li class="col-xs-6 col-sm-3 col-md-4 col-lg-3 item">
+						<a href="{{ sponsor.url }}"><span style="background-image: url({{ site.github.url }}{{ sponsor.image.url }});"></span></a>
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
 
-	<ul>
-		{% for sponsor in site.data.sponsors.individuals %}
-			<li>{{ sponsor }}</li>
-		{% endfor %}
-		{% for sponsor in site.data.sponsors.friends %}
-			<li>{{ sponsor }}</li>
-		{% endfor %}
-	</ul>
+		<ul class="row list-unstyled text-center">
+			{% for sponsor in site.data.sponsors.individuals %}
+				<li class="col-xs-12 col-md-6 col-lg-4">{{ sponsor }}</li>
+			{% endfor %}
+			{% for sponsor in site.data.sponsors.friends %}
+				<li class="col-xs-12 col-md-6 col-lg-4">{{ sponsor }}</li>
+			{% endfor %}
+		</ul>
+	</div>
 </section>

@@ -1,0 +1,69 @@
+<section id="schedule" class="schedule">
+	<div class="frame">
+		<h1><span>{{ 'now' | date: "%Y" }} {{ site.data.schedule.title }}</span></h1>
+		{% for item in site.data.schedule.summary %}
+			<p>{{ item }}</p>
+		{% endfor %}
+
+		<a id="get-directions" class="btn" href="{{ site.data.schedule.map.url }}">Get Directions</a>
+		<a id="add-calendar" class="btn" href="{{ site.data.schedule.calendar.url }}">Add to Calendar</a>
+		<a id="download-pdf" class="btn" href="{{ site.github.url }}/media/docs/{{ 'now' | date: "%Y" }}-miracle-league-schedule.pdf">Download <abbr title="Portable Document Format">PDF</abbr></a>
+
+		<div id="carousel" class="carousel">
+			{% for event in site.data.schedule.events %}
+				<div class="event">
+					<div class="wrapper">
+						{% if event.message %}
+							<table class="no-game">
+								<thead>
+									<tr>
+										<th colspan="3" class="date"><time datetime="{{ event.date }}">{{ event.date | date: "%A" }}<br />{{ event.date | date: "%b %-d" }}</time></th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="cover" colspan="3"><div><span style="background-image: url('{{ event.image }}');" /></span></div></td>
+									</tr>
+									<tr>
+										<th>{{ event.message }}</th>
+									</tr>
+								</tbody>
+							</table>
+						{% else %}
+							<table>
+								<thead>
+									<tr>
+										<th>Away</th>
+										<th class="date"><time datetime="{{ event.date }}">{{ event.date | date: "%b %-d" }}</time></th>
+										<th>Home</th>
+									</tr>
+								</thead>
+								<tfoot>
+									<tr>
+										<th colspan="3"><small>Games will start on time.</small></th>
+									</tr>
+								</tfoot>
+								<tbody>
+									{% for game in event.games %}
+										<tr>
+											<td class="visitor"><div class="team"><svg class="icon icon-{{ game.visitor }}"><use xlink:href="#icon-{{ game.visitor }}"></use></svg></div></td>
+											<td class="date">Field #{{ forloop.index }} <time datetime="{{ event.date }}">{{ event.date | date: "%H:%M %p" }}</time></td>
+											<td class="home"><div class="team"><svg class="icon icon-{{ game.home }}"><use xlink:href="#icon-{{ game.home }}"></use></svg></div></td>
+										</tr>
+									{% endfor %}
+								</tbody>
+							</table>
+						{% endif %}
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+
+		<h2 id="schedule-rules">{{ site.data.schedule.rules.title }}</h2>
+		<ul class="rules">
+			{% for item in site.data.schedule.rules.summary %}
+				<li>{{ item }}</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>

@@ -1,4 +1,9 @@
-<header id="header" class="Header">
-	<a class="u-url logo" href="{{ site.url }}" rel="home" itemprop="url"><img src="{{ site.image_path }}/{{ site.logo.url }}" alt="{{ site.logo.alt }}" itemprop="logo" /></a>
-	<h1 class="e-description tagline" itemprop="description">{{ site.meta.title }}</h1>
+<header id="header" class="header">
+	<div class="frame">
+		<h1><svg class="logo"><use xlink:href="#logo"></use></svg></h1>
+		<div class="wrapper">
+			{% include navigation.html %}
+			{% include social.html location="nav" %}
+		</div>
+	</div>
 </header>

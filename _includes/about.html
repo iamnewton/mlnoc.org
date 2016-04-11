@@ -1,25 +1,13 @@
-<iframe src="https://player.vimeo.com/video/22445867?color=0072bb&title=0&byline=0&portrait=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<section id="about" class="about">
+	<div class="frame">
+		<h1 class="diamond"><span>{{ site.data.about.title }}</span></h1>
+		<h2>{{ site.data.about.subtitle }}</h2>
+		{% for item in site.data.about.summary %}
+			<p>{{ item }}</p>
+		{% endfor %}
 
-<section id="about">
-	<h1>About</h1>
-	<h2>Let's Play Some Baseball!</h2>
-	<p>The Miracle League of North Orange County is based out of Fullerton, California and is geared to those who want to play the great game of baseball. We are a nationwide non-profit organization that gives intellectually and physically disabled children and adults the opportunity to play the great game of baseball.</p>
-	<p>Our players will learn the basic fundamentals of baseball on a traditional baseball diamond. We welcome players who are 8 years old and up. There is no age limit and no player will be turned away because of lack of experience, disability or ability to pay. We use soft-core baseballs and will provide Buddy Assistance if needed.</p>
-	<p><a href="#get-involved">How to Get Involved</a></p>
-
-	<h2 id="about-league">About the League</h2>
-	<p>The Miracle League of North Orange County (MLNOC) was formed in 2009 by a group of parents with special needs "kids" whose children were too old to play baseball in special leagues in the area. <abbr title="Miracle League of North Orange County">MLNOC</abbr> accepts people of all ages and levels. We encourage everyone to join.</p>
-
-	<p>Our league began with 6 teams and 79 players and has grown in the past few years to 10 teams with over 120 players ranging in age from 8 to 62 years old.</p>
-
-	<h3 id="about-players">Players</h3>
-	<p>Our players are the heart and soul of the <abbr title="Miracle League of North Orange County">MLNOC</abbr>. They play at all levels and show great sportsmanship and respect to each other. We are so proud of them.</p>
-
-	<h3 id="about-volunteers">Volunteers &amp; Coaches</h3>
-	<p>These are the backbone of the <abbr title="Miracle League of North Orange County">MLNOC</abbr>. These are the key people that work tirelessly to ensure our players have the best baseball – and social -- experience possible.</p>
-
-	<h3 id="about-families">Families</h3>
-	<p>Families give our players overwhelming support and encouragement. It is amazing to see the look on our players’ faces as the families cheer them on as they get a hit, round the bases or make that great play. Even when they don’t make the plays, they are cheered and supported.</p>
-
-	<p id="get-involved">We are always looking for more volunteers and coaches to join our <abbr title="Miracle League of North Orange County">MLNOC</abbr> family. If you are interested in making a difference, you can join us on the field or provide us with a donation at your discretion. We happily accept either!</p>
+		<div id="get-involved" class="hidden">
+			<p class="donate">{{ site.data.about.cta }}</p>
+		</div>
+	</div>
 </section>

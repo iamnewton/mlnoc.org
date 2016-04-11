@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>instagram-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-LandingPage" transform="translate(-799.000000, -152.000000)" fill="#FFFFFF">
+            <g id="hero">
+                <g id="menu" transform="translate(200.000000, 152.000000)">
+                    <path d="M620.6,0 L601.4,0 C600.08,0 599,1.08 599,2.4 L599,21.6 C599,22.92 600.08,24 601.4,24 L620.6,24 C621.92,24 623,22.92 623,21.6 L623,2.4 C623,1.08 621.92,0 620.6,0 L620.6,0 Z M611,7.2 C613.64,7.2 615.8,9.36 615.8,12 C615.8,14.64 613.64,16.8 611,16.8 C608.36,16.8 606.2,14.64 606.2,12 C606.2,9.36 608.36,7.2 611,7.2 L611,7.2 Z M602,21.6 C601.64,21.6 601.4,21.36 601.4,21 L601.4,10.8 L603.92,10.8 C603.8,11.16 603.8,11.64 603.8,12 C603.8,15.96 607.04,19.2 611,19.2 C614.96,19.2 618.2,15.96 618.2,12 C618.2,11.64 618.2,11.16 618.08,10.8 L620.6,10.8 L620.6,21 C620.6,21.36 620.36,21.6 620,21.6 L602,21.6 L602,21.6 Z M620.6,5.4 C620.6,5.76 620.36,6 620,6 L617.6,6 C617.24,6 617,5.76 617,5.4 L617,3 C617,2.64 617.24,2.4 617.6,2.4 L620,2.4 C620.36,2.4 620.6,2.64 620.6,3 L620.6,5.4 L620.6,5.4 Z" id="instagram-icon"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

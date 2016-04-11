@@ -1,0 +1,10 @@
+email: 'miracleleaguenoc@yahoo.com'
+address:
+  street: 'P.O. Box 6069'
+  city: 'Fullerton'
+  state: 'CA'
+  zip: 92831
+director:
+  name: 'Charles Rathmell, II'
+  position: 'League Director'
+  image: 'media/images/people/chip.jpg'

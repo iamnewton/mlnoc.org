@@ -3,14 +3,18 @@
 	<head>
 		{% include meta.html %}
 	</head>
-	<body itemscope itemtype="http://schema.org/AccountingService">
+	<body>
 		<a id="skip-to-content" class="sr-only sr-only-focusable" href="#content"><span class="skiplink-text">Skip to main content</span></a>
-
+		{% include svg.html %}
 		{% include header.html %}
-		{% include navigation.html %}
-
-		<main id="content">{{ content }}</main>
-
+		<main id="content" class="main">{{ content }}</main>
+		{% include contact.html %}
 		{% include footer.html %}
+
+		{% if site.github %}
+			<script src="{{ site.github.url }}/ui/scripts.min.js"></script>
+		{% else %}
+			<script src="{{ site.github.url }}/ui/scripts.js"></script>
+		{% endif %}
 	</body>
 </html>

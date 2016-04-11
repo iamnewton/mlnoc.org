@@ -1,0 +1,145 @@
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+
+	&-focusable:active,
+	&-focusable:focus {
+		position: static;
+		width: auto;
+		height: auto;
+		margin: 0;
+		overflow: visible;
+		clip: auto;
+	}
+}
+
+.list-unstyled {
+	padding-left: 0;
+	list-style: none;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.icon {
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+	fill: currentColor;
+}
+
+.hidden {
+	display: none;
+}
+
+.btn {
+	display: inline-block;
+	margin-bottom: $padding-y / 3;
+	border-radius: 4px;
+	padding: ($padding-y / 2) $padding-y;
+	background-color: desaturate(darken($brand-primary, 2), 3);
+	color: rgba($color-white, .5);
+	transition: all ease .5s;
+
+	&:hover {
+		background-color: desaturate(lighten($brand-primary, 13), 36);
+		color: $color-white;
+	}
+}
+
+body {
+	background-color: $brand-secondary;
+}
+
+.frame {
+	position: relative;
+	max-width: $frame;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.main {
+	background-color: $color-white;
+
+	section {
+		padding: ($padding-y * 3) $padding-x $padding-y;
+	}
+}
+
+.diamond {
+	position: relative;
+	margin-top: $padding-x * 2/3;
+	margin-bottom: $padding-y * 3;
+	color: $brand-secondary;
+	font-size: 1rem;
+	font-weight: 600;
+	letter-spacing: 3px;
+	text-align: center;
+	text-transform: uppercase;
+
+	span {
+		position: relative;
+		z-index: 3;
+		padding: 0 15px;
+		background-color: $color-white;
+	}
+
+	// line
+	&::before {
+		position: absolute;
+		top: 50%;
+		right: 0;
+		left: 0;
+		z-index: 1;
+		width: 100%;
+		height: 1px;
+		background-color: $color-lightgrey;
+		content: '';
+	}
+
+	// diamond
+	&::after {
+		$size: 44px;
+		position: absolute;
+		top: -11px;
+		left: 50%;
+		z-index: 2;
+		width: $size;
+		height: $size;
+		margin-left: -(($size / 2) + 2);
+		border: 1px solid $color-lightgrey;
+		transform: rotate(45deg);
+		content: '';
+	}
+}
+
+.error {
+	padding: ($padding-y * 3) $padding-x;
+
+	@media (min-width: 961px) and (max-width: 994px) {
+		margin-top: 0;
+	}
+	@media (min-width: 995px) and (max-width: 1214px) {
+		margin-top: -55px;
+	}
+	@media (min-width: 1215px) and (max-width: 1381px) {
+		margin-top: -85px;
+	}
+	@media (min-width: 1382px) and (max-width: 1569px) {
+		margin-top: -115px;
+	}
+	@media (min-width: 1560px) and (max-width: 1755px) {
+		margin-top: -145px;
+	}
+	@media (min-width: 1755px) {
+		margin-top: -190px;
+	}
+}
