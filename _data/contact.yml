@@ -3,8 +3,8 @@ address:
   street: 'P.O. Box 6069'
   city: 'Fullerton'
   state: 'CA'
-  zip: 92831
+  zip: 92834
 director:
-  name: 'Charles Rathmell, II'
+  name: 'Chip Rathmell'
   position: 'League Director'
   image: 'media/images/people/chip.jpg'

@@ -1,6 +1,8 @@
 <section id="contact" class="contact">
 	<div class="frame">
+		{% comment %}
 		<div class="director"><img src="{{ site.github.url }}/{{ site.data.contact.director.image }}" /></div>
+		{% endcomment %}
 		<h2>{{ site.data.contact.director.name }}</h2>
 		<h3>{{ site.data.contact.director.position }}</h3>
 		<a id="email-footer" class="email" href="mailto:{{ site.data.contact.email }}"><svg class="icon icon-email"><use xlink:href="#email-icon"></use></svg> {{ site.data.contact.email }}</a>
