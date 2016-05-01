@@ -20,5 +20,12 @@
 				<li class="col-xs-12 col-md-6 col-lg-4">{{ sponsor }}</li>
 			{% endfor %}
 		</ul>
+		<h3 class="text-center">A special thanks to those who contribute and make the Miracle League of North Orange County great!</h3>
+		<ul class="row list-unstyled text-center">
+			{% for member in site.data.board %}
+				{% assign position = member[0] | replace: '-', ' ' | downcase  %}
+				<li class="col-xs-12 col-md-6 col-lg-4"><strong class="text-capitalize">{{ position }}</strong>: {{ member[1] }}</li>
+			{% endfor %}
+		</ul>
 	</div>
 </section>
