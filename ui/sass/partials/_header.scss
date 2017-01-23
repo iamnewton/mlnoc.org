@@ -1,3 +1,11 @@
+.alert {
+	padding-top: 1em;
+	color: rgb(255,255,255);
+
+	strong {
+		text-transform: uppercase;
+	}
+}
 .header {
 	padding: $padding-x $padding-y;
 	background-image: url('/media/images/hero/480.jpg');
