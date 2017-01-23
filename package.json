@@ -33,8 +33,6 @@
     "start": "npm run serve"
   },
   "dependencies": {
-    "legion-grid": "git+https://github.rp-core.com/Legion/legion-grid.git#gh-pages",
-    "normalize-scss": "^4.0.3",
     "slick-carousel": "^1.5.9"
   },
   "devDependencies": {

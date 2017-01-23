@@ -1,0 +1,24 @@
+@import '../configuration/variables';
+@import 'clearfix';
+@import 'breakpoints';
+@import 'framework';
+@import 'make-grid';
+
+@import '../properties/basics';
+@import '../properties/order';
+@import '../properties/alignment';
+
+@mixin grid($style: 'fluid') {
+	$styles: fluid flexbox;
+
+	@if not index($styles, $style) {
+		@warn 'style must be one of `fluid` or `flexbox`; currently `#{style}`.';
+	} @else {
+		@include grid-basics();
+		@if $style == flexbox {
+			@include grid-order();
+			@include grid-alignment();
+		}
+	}
+}
+

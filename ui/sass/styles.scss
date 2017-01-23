@@ -1,9 +1,5 @@
-@import 'support-for/sass/support-for';
-@import 'normalize-scss/sass/normalize/variables';
-@import 'normalize-scss/sass/normalize/vertical-rhythm';
-@import 'normalize-scss/sass/normalize/normalize-mixin';
-@include normalize();
-@import 'legion-grid/src/sass/legion-grid.fluid';
+@import 'normalize';
+@import 'grid/grid.fluid';
 @import 'slick-carousel/slick/slick.scss';
 @import 'variables';
 @import 'reset';
