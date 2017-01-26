@@ -16,7 +16,7 @@ rules:
     - 'Sunflower seeds are <strong>NOT</strong> allowed on the premises'
 events:
   -
-    date: '2016-04-03T10:45:00-07:00'
+    date: '2017-03-12T10:45:00-07:00'
     games:
       -
         home: 'angels'
@@ -31,111 +31,130 @@ events:
         home: 'red-sox'
         visitor: 'cardinals'
   -
-    date: '2016-04-10T10:45:00-07:00'
+    date: '2017-03-19T10:45:00-07:00'
     games:
-      -
-        home: 'dodgers'
-        visitor: 'yankees'
-      -
-        home: 'pirates'
-        visitor: 'red-sox'
       -
         home: 'rangers'
         visitor: 'cardinals'
       -
-        home: 'titans'
-        visitor: 'angels'
-  -
-    date: '2016-04-17T10:45:00-07:00'
-    games:
-      -
-        home: 'angels'
-        visitor: 'dodgers'
-      -
-        home: 'rangers'
+        home: 'pirates'
         visitor: 'red-sox'
-      -
-        home: 'yankees'
-        visitor: 'titans'
-      -
-        home: 'cardinals'
-        visitor: 'pirates'
-  -
-    date: '2016-04-24T10:45:00-07:00'
-    games:
-      -
-        home: 'rangers'
-        visitor: 'pirates'
-      -
-        home: 'cardinals'
-        visitor: 'red-sox'
-      -
-        home: 'titans'
-        visitor: 'dodgers'
-      -
-        home: 'yankees'
-        visitor: 'angels'
-  -
-    date: '2016-05-01T10:45:00-07:00'
-    games:
-      -
-        home: 'angels'
-        visitor: 'titans'
-      -
-        home: 'cardinals'
-        visitor: 'rangers'
       -
         home: 'dodgers'
         visitor: 'yankees'
       -
+        home: 'titans'
+        visitor: 'angels'
+  -
+    date: '2017-03-26T10:45:00-07:00'
+    games:
+      -
+        home: 'angels'
+        visitor: 'dodgers'
+      -
+        home: 'rangers'
+        visitor: 'red-sox'
+      -
+        home: 'yankees'
+        visitor: 'titans'
+      -
+        home: 'cardinals'
+        visitor: 'pirates'
+  -
+    date: '2017-04-02T10:45:00-07:00'
+    games:
+      -
+        home: 'rangers'
+        visitor: 'pirates'
+      -
+        home: 'cardinals'
+        visitor: 'red-sox'
+      -
+        home: 'titans'
+        visitor: 'dodgers'
+      -
+        home: 'yankees'
+        visitor: 'angels'
+  -
+    date: '2017-04-09T10:45:00-07:00'
+    games:
+      -
+        home: 'dodgers'
+        visitor: 'yankees'
+      -
+        home: 'cardinals'
+        visitor: 'rangers'
+      -
+        home: 'angels'
+        visitor: 'titans'
+      -
         home: 'red-sox'
         visitor: 'pirates'
   -
-    date: '2016-05-08T10:45:00-07:00'
+    date: '2017-04-16T10:45:00-07:00'
+    message: "No Games!!!"
+    image: 'media/images/people/easter-day.jpg'
+  -
+    date: '2017-04-23T10:45:00-07:00'
+    games:
+      -
+        home: 'titans'
+        visitor: 'yankees'
+      -
+        home: 'pirates'
+        visitor: 'cardinals'
+      -
+        home: 'red-sox'
+        visitor: 'rangers'
+      -
+        home: 'dodgers'
+        visitor: 'angels'
+  -
+    date: '2017-04-30T10:45:00-07:00'
+    games:
+      -
+        home: 'red-sox'
+        visitor: 'cardinals'
+      -
+        home: 'pirates'
+        visitor: 'rangers'
+      -
+        home: 'angels'
+        visitor: 'yankees'
+      -
+        home: 'dodgers'
+        visitor: 'titans'
+  -
+    date: '2017-05-07T10:45:00-07:00'
+    games:
+      -
+        home: 'angels'
+        visitor: 'titans'
+      -
+        home: 'rangers'
+        visitor: 'cardinals'
+      -
+        home: 'red-sox'
+        visitor: 'pirates'
+      -
+        home: 'dodgers'
+        visitor: 'yankees'
+  -
+    date: '2017-05-14T10:45:00-07:00'
     message: "No Games!!!"
     image: 'media/images/people/mothers-day.jpg'
   -
-    date: '2016-05-15T10:45:00-07:00'
+    date: '2017-05-21T10:45:00-07:00'
     games:
-      -
-        home: 'red-sox'
-        visitor: 'rangers'
-      -
-        home: 'pirates'
-        visitor: 'cardinals'
-      -
-        home: 'titans'
-        visitor: 'yankees'
-      -
-        home: 'dodgers'
-        visitor: 'angels'
-  -
-    date: '2016-05-22T10:45:00-07:00'
-    games:
-      -
-        home: 'red-sox'
-        visitor: 'cardinals'
-      -
-        home: 'pirates'
-        visitor: 'rangers'
-      -
-        home: 'angels'
-        visitor: 'yankees'
-      -
-        home: 'dodgers'
-        visitor: 'titans'
-  -
-    date: '2016-05-29T10:45:00-07:00'
-    games:
-      -
-        home: 'angels'
-        visitor: 'titans'
       -
         home: 'rangers'
-        visitor: 'cardinals'
+        visitor: 'red-sox'
       -
-        home: 'red-sox'
+        home: 'cardinals'
         visitor: 'pirates'
       -
-        home: 'dodgers'
-        visitor: 'yankees'
+        home: 'yankees'
+        visitor: 'titans'
+      -
+        home: 'angels'
+        visitor: 'dodgers'
