@@ -9,41 +9,62 @@ companies:
       alt: Kiwanis International - Serving the Children of the World
   -
     active: true
+    title: The Rathmell Group at Morgan Stanley
+    url: http://www.morganstanleyfa.com/charles.rathmell.ii/biography.htm
+    image:
+      url: /media/images/sponsors/morgan-stanley-logo.png
+      alt: Morgan Stanely
+  -
+    active: true
+    title: Fullerton High School Baseball
+    url: http://fullertonindiansathletics.com/baseball
+    image:
+      url: /media/images/sponsors/fullerton-high-logo.jpg
+      alt: F with an indian style feather attached
+  -
+    active: true
+    title: California State University of Fullerton Titans
+    url: http://fullertontitans.com/sports/m-basebl/index
+    image:
+      url: /media/images/sponsors/csuf-logo.png
+      alt: The titan or elephant with block letters reading Titans, Cal State Fullerton
+  -
+    active: false
     title: Warehouse Shoe Sale
     url: http://www.warehouseshoesale.com/
     image:
       url: /media/images/sponsors/wss-logo.jpg
       alt: WSS - Shoes. Style. Selection.
   -
-    active: true
+    active: false
     title: Placentia Police Officers' Association
     url: http://placentiapoa.com/
     image:
       url: /media/images/sponsors/placentia-poa-logo.jpg
       alt: Placentia Police Officers' Association
   -
-    active: true
+    active: false
     title: Holiday Inn Express Hotel & Suites
     url: http://www.hiexpress.com/hotels/us/en/reservation?dp=true&roomResult=none&quickRes=city&creative={creative}&endvpage=findandbook#findandbook
     image:
       url: /media/images/sponsors/holiday-inn-express-logo.jpg
       alt: Holiday Inn Express Hotel & Suites
   -
-    active: true
+    active: false
     title: Sports For All Children
     url:
     image:
       url: /media/images/sponsors/sports-for-all-children-logo.jpg
       alt: Sports For All Children - More Than a Game
   -
-    active: true
+    active: false
     title: Kristen Fowler
     url: http://www.kristenfowler.com/
     image:
       url: /media/images/sponsors/kristen-fowler-logo.jpg
       alt: Kristen Fowler - Putting Families & Homes Together
   -
-    active: true
+    active: false
     title: Maxum Therapy
     url: http://maxumtherapy.com/
     image:
@@ -57,22 +78,16 @@ companies:
       url: /media/images/sponsors/teamup-logo.jpg
       alt: Rex & Jennifer Hudler's Team Up for Down Syndrome
   -
-    active: true
+    active: false
     title: Crystal Glass & Mirror
     url: http://www.crystal-glass.net/
     image:
       url: /media/images/sponsors/crystal-glass-logo.jpg
       alt: Crystal Glass & Mirror
 individuals:
-  - Ann Wood
-  - Stephen Pischel
-  - Linda and Jerry Melcher
-  - Jack and Rhonda Sanstrom
-  - Robert and Kris Steedman
-  - Dick Huebner
-  - Michelle Cummings & Ron White
-  - Terese Niebuhr
-  - The Oshiro Family
+  - The Karr family
+  - The Oshiro family
+  - The Stark family
 friends:
   - Best Buddies Brea Olinda High School
   - Best Buddies Esperanza High School

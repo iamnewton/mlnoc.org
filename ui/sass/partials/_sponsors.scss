@@ -10,10 +10,15 @@
 		margin-bottom: $padding-y / 3;
 	}
 
+	p {
+		margin-bottom: $padding-x;
+	}
+
 	.item {
 		height: 120px;
 		margin-bottom: $padding-x;
 
+		/*
 		&:last-child {
 			width: 100%;
 			margin-bottom: 0;
@@ -40,6 +45,7 @@
 				}
 			}
 		}
+		*/
 
 		a {
 			display: block;
