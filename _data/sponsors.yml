@@ -84,10 +84,18 @@ companies:
     image:
       url: /media/images/sponsors/crystal-glass-logo.jpg
       alt: Crystal Glass & Mirror
+  -
+    active: true
+    title: Innovative Baking, LLC
+    url: https://www.venicebakery.com/
+    image:
+      url: /media/images/sponsors/venice-bakery.png
+      alt: Innovative Baking DBA Venice Bakery
 individuals:
   - The Karr family
   - The Oshiro family
   - The Stark family
+  - The Ballas family
 friends:
   - Best Buddies Brea Olinda High School
   - Best Buddies Esperanza High School
