@@ -1,3 +1,11 @@
+/**
+  * miracleleaguenoc - The Miracle League Little League of North Orange County
+  *
+  * @version v0.2.0
+  * @license UNLICENSED
+  * @author Newton Koumantzelis <chrisohpedia@gmail.com>
+  */
+
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -1179,7 +1187,6 @@ template {
 .slick-slider {
   position: relative;
   display: block;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
