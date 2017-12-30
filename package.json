@@ -39,7 +39,7 @@
     "browser-sync": "^2.9.11",
     "clean-css": "^3.4.9",
     "headr": "^0.1.0",
-    "node-sass": "^3.4.1",
+    "node-sass": "^4.7.2",
     "parallelshell": "^2.0.0",
     "uglify-js": "^2.6.2"
   }
