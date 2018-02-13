@@ -8,7 +8,7 @@ companies:
       url: /media/images/sponsors/kiwanis-international-logo.gif
       alt: Kiwanis International - Serving the Children of the World
   -
-    active: true
+    active: false
     title: The Rathmell Group at Morgan Stanley
     url: http://www.morganstanleyfa.com/charles.rathmell.ii/biography.htm
     image:
