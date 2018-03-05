@@ -1,11 +1,3 @@
-/**
-  * miracleleaguenoc - The Miracle League Little League of North Orange County
-  *
-  * @version v0.2.0
-  * @license UNLICENSED
-  * @author Newton Koumantzelis <chrisohpedia@gmail.com>
-  */
-
 /*!
  * jQuery JavaScript Library v3.2.1
  * https://jquery.com/
