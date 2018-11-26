@@ -33,7 +33,7 @@
     "start": "npm run serve"
   },
   "dependencies": {
-    "slick-carousel": "^1.5.9"
+    "slick-carousel": "^1.7.1"
   },
   "devDependencies": {
     "browser-sync": "^2.9.11",
