@@ -16,7 +16,7 @@ rules:
     - 'Sunflower seeds are <strong>NOT</strong> allowed on the premises'
 events:
   -
-    date: '2018-03-04T10:45:00-07:00'
+    date: '2018-03-03T10:45:00-07:00'
     games:
       -
         home: 'angels'
@@ -31,7 +31,7 @@ events:
         home: 'red-sox'
         visitor: 'cardinals'
   -
-    date: '2018-03-11T10:45:00-07:00'
+    date: '2018-03-10T10:45:00-07:00'
     games:
       -
         home: 'rangers'
@@ -46,7 +46,7 @@ events:
         home: 'titans'
         visitor: 'angels'
   -
-    date: '2018-03-18T10:45:00-07:00'
+    date: '2018-03-17T10:45:00-07:00'
     games:
       -
         home: 'angels'
@@ -61,7 +61,7 @@ events:
         home: 'cardinals'
         visitor: 'pirates'
   -
-    date: '2018-03-25T10:45:00-07:00'
+    date: '2018-03-24T10:45:00-07:00'
     games:
       -
         home: 'rangers'
@@ -76,56 +76,56 @@ events:
         home: 'yankees'
         visitor: 'angels'
   -
-    date: '2018-04-01T10:45:00-07:00'
+    date: '2018-03-31T10:45:00-07:00'
+    games:
+      -
+        home: 'dodgers'
+        visitor: 'yankees'
+      -
+        home: 'cardinals'
+        visitor: 'rangers'
+      -
+        home: 'angels'
+        visitor: 'titans'
+      -
+        home: 'red-sox'
+        visitor: 'pirates'
+  -
+    date: '2018-04-07T10:45:00-07:00'
+    games:
+      -
+        home: 'titans'
+        visitor: 'yankees'
+      -
+        home: 'pirates'
+        visitor: 'cardinals'
+      -
+        home: 'red-sox'
+        visitor: 'rangers'
+      -
+        home: 'dodgers'
+        visitor: 'angels'
+  -
+    date: '2018-04-14T10:45:00-07:00'
+    games:
+      -
+        home: 'red-sox'
+        visitor: 'cardinals'
+      -
+        home: 'pirates'
+        visitor: 'rangers'
+      -
+        home: 'angels'
+        visitor: 'yankees'
+      -
+        home: 'dodgers'
+        visitor: 'titans'
+  -
+    date: '2018-04-21T10:45:00-07:00'
     message: "No Games!!!"
     image: 'media/images/people/easter-day.jpg'
   -
-    date: '2018-04-08T10:45:00-07:00'
-    games:
-      -
-        home: 'dodgers'
-        visitor: 'yankees'
-      -
-        home: 'cardinals'
-        visitor: 'rangers'
-      -
-        home: 'angels'
-        visitor: 'titans'
-      -
-        home: 'red-sox'
-        visitor: 'pirates'
-  -
-    date: '2018-04-15T10:45:00-07:00'
-    games:
-      -
-        home: 'titans'
-        visitor: 'yankees'
-      -
-        home: 'pirates'
-        visitor: 'cardinals'
-      -
-        home: 'red-sox'
-        visitor: 'rangers'
-      -
-        home: 'dodgers'
-        visitor: 'angels'
-  -
-    date: '2018-04-22T10:45:00-07:00'
-    games:
-      -
-        home: 'red-sox'
-        visitor: 'cardinals'
-      -
-        home: 'pirates'
-        visitor: 'rangers'
-      -
-        home: 'angels'
-        visitor: 'yankees'
-      -
-        home: 'dodgers'
-        visitor: 'titans'
-  -
-    date: '2018-04-29T10:45:00-07:00'
+    date: '2018-04-28T10:45:00-07:00'
     games:
       -
         home: 'angels'
@@ -140,7 +140,7 @@ events:
         home: 'dodgers'
         visitor: 'yankees'
   -
-    date: '2018-05-06T10:45:00-07:00'
+    date: '2018-05-05T10:45:00-07:00'
     games:
       -
         home: 'rangers'
@@ -155,10 +155,10 @@ events:
         home: 'angels'
         visitor: 'dodgers'
   -
-    date: '2018-05-13T10:45:00-07:00'
+    date: '2018-05-12T10:45:00-07:00'
     message: "No Games!!!"
     image: 'media/images/people/mothers-day.jpg'
   -
-    date: '2018-05-20T10:45:00-07:00'
+    date: '2018-05-19T10:45:00-07:00'
     message: "Closing Ceremonies!!!"
-    image: 'media/images/people/mothers-day.jpg'
+    image: 'media/images/people/closing-ceremony.jpg'

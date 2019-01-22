@@ -33,14 +33,15 @@
     "start": "npm run serve"
   },
   "dependencies": {
-    "slick-carousel": "^1.5.9"
+    "jquery": "^3.3.1",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
-    "browser-sync": "^2.9.11",
-    "clean-css": "^3.4.9",
+    "browser-sync": "^2.26.3",
+    "clean-css": "^3.4.28",
     "headr": "^0.1.0",
-    "node-sass": "^4.10.0",
+    "node-sass": "^4.11.0",
     "parallelshell": "^2.0.0",
-    "uglify-js": "^2.6.2"
+    "uglify-js": "^2.8.29"
   }
 }
