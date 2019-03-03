@@ -40,7 +40,7 @@
 								</thead>
 								<tfoot>
 									<tr>
-										<th colspan="3"><small>Games will start on time.</small></th>
+										<th colspan="3"><small>{% if event.note %}{{ event.note }}{% else %}Games will start on time.{% endif %}</small></th>
 									</tr>
 								</tfoot>
 								<tbody>

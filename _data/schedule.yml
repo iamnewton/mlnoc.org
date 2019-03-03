@@ -77,6 +77,7 @@ events:
         visitor: 'pirates'
   -
     date: '2018-04-07T10:45:00-07:00'
+    note: 'Picture Day!!!'
     games:
       -
         home: 'titans'
@@ -159,6 +160,6 @@ events:
         home: 'red-sox'
         visitor: 'cardinals'
   -
-    date: '2018-06-03T10:45:00-07:00'
+    date: '2018-06-02T10:45:00-07:00'
     message: "Closing Ceremonies!!!"
     image: 'media/images/people/closing-ceremony.jpg'
