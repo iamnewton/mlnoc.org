@@ -21,7 +21,7 @@
     "cssmin": "cleancss --skip-import --output $npm_package_config_src/styles.min.css $npm_package_config_src/styles.css",
     "postcssmin": "for file in $npm_package_config_src/*.css; do base=${file##*/}; headr ${file} --version --homepage --license --author -o=${file}; done",
     "concat": "cat node_modules/jquery/dist/jquery.js node_modules/slick-carousel/slick/slick.js $npm_package_config_src/scripts/slick.js > $npm_package_config_src/scripts.js",
-    "uglifyjs": "uglifyjs $npm_package_config_src/scripts.js --stats --prefix relative --source-map $npm_package_config_src/scripts.js.map --compress --mangle --screw-ie8 --output $npm_package_config_src/scripts.min.js",
+    "uglifyjs": "uglifyjs $npm_package_config_src/scripts.js --source-map \"filename='$npm_package_config_src/scripts.js.map'\" --compress --mangle --output $npm_package_config_src/scripts.min.js",
     "postuglifyjs": "for file in $npm_package_config_src/*.js; do base=${file##*/}; headr ${file} --version --homepage --license --author -o=${file}; done",
     "build": "npm run sass && npm run concat",
     "predist": "npm run build -s",
@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "browser-sync": "^2.26.3",
-    "clean-css": "^4.2.3",
+    "clean-css-cli": "^4.3.0",
     "headr": "^0.1.0",
     "node-sass": "^4.11.0",
     "parallelshell": "^2.0.0",
