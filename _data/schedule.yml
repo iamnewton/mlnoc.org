@@ -127,7 +127,7 @@ events:
         visitor: 'cardinals'
   -
     date: '2020-04-22T17:30:00-07:00'
-    message: 'Titan Clinic @ CSUF Titan Baseball Field'
+    message: 'Titan Clinic - 5:30p @ CSUF Baseball Field'
     image: 'media/images/people/titan-clinic.jpg'
   -
     date: '2020-04-26T10:45:00-07:00'
