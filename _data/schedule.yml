@@ -3,7 +3,7 @@ summary:
   - 'All games are scheduled to be played at Lion&rsquo;s Field which is located in Fullerton at the intersection of Lemon Street and Brea Boulevard next to Hillcrest Park.'
   - 'Gates open at 10:30 AM. Players should be on the field by 10:45 AM.  Games will start on time at 11 AM.'
 map:
-  url: 'http://maps.apple.com/?daddr=Lions+Field+1436+Brea+Blvd+Fullerton,+CA+92835+United+States&dirflg=d&t=h'
+  url: 'https://maps.apple.com/?daddr=Lions+Field+1436+Brea+Blvd+Fullerton,+CA+92835+United+States&dirflg=d&t=h'
 calendar:
   url: 'webcal://p23-calendars.icloud.com/published/2/vaFKXb8uTc-a_E22BDGnRlUnrmsbfAXorMHdaat_0Ojcf4fc9P7YwikOs3JMbB04GfCGxk8QpY1SFnyaTOmV_ARk0Hk1S_N0owYOaNjpnSw'
 rules:
