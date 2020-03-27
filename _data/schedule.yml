@@ -17,6 +17,7 @@ rules:
 events:
   -
     date: '2020-03-01T10:45:00-07:00'
+    isCancelled: false
     games:
       -
         home: 'titans'
@@ -32,6 +33,7 @@ events:
         visitor: 'cardinals'
   -
     date: '2020-03-08T10:45:00-07:00'
+    isCancelled: false
     games:
       -
         home: 'red-sox'
@@ -47,6 +49,7 @@ events:
         visitor: 'titans'
   -
     date: '2020-03-15T10:45:00-07:00'
+    isCancelled: true
     games:
       -
         home: 'yankees'
@@ -62,6 +65,7 @@ events:
         visitor: 'red-sox'
   -
     date: '2020-03-22T10:45:00-07:00'
+    isCancelled: true
     games:
       -
         home: 'red-sox'
@@ -77,6 +81,7 @@ events:
         visitor: 'titans'
   -
     date: '2020-03-29T10:45:00-07:00'
+    isCancelled: true
     games:
       -
         home: 'pirates'
@@ -92,6 +97,7 @@ events:
         visitor: 'rangers'
   -
     date: '2020-04-05T10:45:00-07:00'
+    isCancelled: true
     note: 'Picture Day!!!'
     games:
       -
@@ -108,10 +114,12 @@ events:
         visitor: 'titans'
   -
     date: '2020-04-12T10:45:00-07:00'
+    isCancelled: true
     message: "No Games!!!"
     image: 'media/images/people/easter-day.jpg'
   -
     date: '2020-04-19T10:45:00-07:00'
+    isCancelled: true
     games:
       -
         home: 'dodgers'
@@ -127,10 +135,12 @@ events:
         visitor: 'cardinals'
   -
     date: '2020-04-22T17:30:00-07:00'
+    isCancelled: true
     message: 'Titan Clinic - 5:30p @ CSUF Baseball Field'
     image: 'media/images/people/titan-clinic.jpg'
   -
     date: '2020-04-26T10:45:00-07:00'
+    isCancelled: true
     games:
       -
         home: 'rangers'
@@ -146,6 +156,7 @@ events:
         visitor: 'dodgers'
   -
     date: '2020-05-03T10:45:00-07:00'
+    isCancelled: true
     games:
       -
         home: 'yankees'
@@ -161,9 +172,11 @@ events:
         visitor: 'rangers'
   -
     date: '2020-05-10T10:45:00-07:00'
+    isCancelled: true
     message: "No Games!!!"
     image: 'media/images/people/mothers-day.jpg'
   -
     date: '2020-05-17T10:45:00-07:00'
+    isCancelled: true
     message: "Closing Ceremonies!!!"
     image: 'media/images/people/closing-ceremony.jpg'
